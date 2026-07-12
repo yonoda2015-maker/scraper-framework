@@ -7,12 +7,7 @@ from collections.abc import Awaitable, Callable
 from dataclasses import dataclass
 
 from scraper_framework.core.adapter import SiteAdapter
-from scraper_framework.core.models import (
-    CrawlOutcome,
-    CrawlResult,
-    FetchMethod,
-    ScrapedItem,
-)
+from scraper_framework.core.models import CrawlOutcome, CrawlResult, FetchMethod
 from scraper_framework.core.proxy import ProxyPool
 from scraper_framework.core.storage import Storage
 
